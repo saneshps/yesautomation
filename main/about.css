@@ -1,0 +1,482 @@
+#header {
+    padding-bottom: 10px;
+}
+
+#about-banner .cnt-banner {
+    transform: translate(20%, 0);
+    position: absolute;
+    left: 0%;
+    top: 75%;
+    background: #f26726;
+    width: 520px;
+    height: auto !important;
+    border-left: 8px solid #fff;
+}
+
+#about-banner h1 {
+    font-size: 4.5rem;
+    color: #fff;
+    font-family: CircularStd-Bold, HelveticaNeue-Medium, Helvetica Neue medium, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 10px 20px 17px 30px;
+}
+
+/* #about-banner h1::after {
+    content: " ";
+    position: absolute;
+    background: #fff;
+    height: 4px;
+    left: 20px;
+    right: 20px;
+    bottom: 25px;
+    width: 470px;
+} */
+
+#about-banner {
+    background: url(../images/about.jpg) center top no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 100vh
+}
+
+#about-banner .container-fluid {}
+
+#about-banner .caption {
+    left: 3%;
+    width: 45%;
+    margin-top: 39%;
+    text-align: left;
+    background: #f26726;
+    height: 150px;
+    border-left: 15px solid #ffffff;
+    padding-top: 30px;
+    position: relative;
+}
+
+#about-banner h2 {
+    font-size: 3rem;
+    color: #fff;
+    text-align: left;
+    text-shadow: none;
+    padding: 0px 20px 0px 20px;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: CircularStd-Bold, HelveticaNeue-Medium, Helvetica Neue medium, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: -.02rem;
+    margin-top: 0;
+}
+
+#about-banner h2:after {
+    content: " ";
+    position: absolute;
+    background: #fff;
+    width: 39vw;
+    height: 4px;
+    left: 20px;
+    right: 0px;
+    top: 80%;
+}
+
+#about-content .container-fluid {
+    width: 90%;
+}
+
+#about-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#about-content h3 {
+    color: #f26726;
+    margin-top: 0px;
+    font-size: 3rem;
+    margin-bottom: 1%;
+}
+
+#about-content p {
+    line-height: 26px;
+    font-size: 1.6rem;
+    color: #494b42;
+    margin: 0 0 2rem;
+    margin-top: 0px;
+    letter-spacing: -.0rem;
+}
+
+#about-content span {
+    color: #f26726;
+    font-weight: 600;
+    font-size: 2rem
+}
+
+
+
+#about-banner .box {
+    background: #fff;
+    height: 7px;
+    position: absolute;
+    z-index: 9;
+    margin-top: -1px;
+    width: 100%;
+    opacity: .6;
+}
+
+
+
+/* #about-banner{z-index: -999;  } */
+
+
+
+#about-content .yes {
+    width: 250px;
+    float: left;
+}
+
+#about-content .yes img {
+    width: 30%
+}
+
+#about-content .yes p {
+    font-weight: 600
+}
+
+#about-content .kist {
+    width: auto;
+    float: left;
+    margin-left: 20%
+}
+
+#about-content .kist img {
+    width: 60%
+}
+
+#about-content .kist p {
+    font-weight: 600
+}
+
+
+@media only screen and (min-width : 1920px) and (max-width : 2560px) {}
+
+@media only screen and (min-width : 1600px) and (max-width : 1919px) {
+
+
+    #border {
+        margin-top: -47px;
+    }
+
+    #about-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+
+}
+
+@media only screen and (min-width : 1440px) and (max-width : 1599px) {
+
+    #border {
+        margin-top: -47px;
+    }
+
+    #about-banner h2 {
+        font-size: 3rem
+    }
+
+
+}
+
+@media only screen and (min-width : 1366px) and (max-width : 1439px) {
+
+    #about-banner .cnt-banner {
+        width: 500px;
+    }
+
+    #about-banner h1::after {
+        width: 450px;
+    }
+
+    #about-banner h2 {
+        font-size: 3rem
+    }
+
+    #about-content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+    #border {
+        margin-top: -39px;
+    }
+
+
+}
+
+@media only screen and (min-width : 1200px) and (max-width : 1365px) {
+
+    #about-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #about-content .kist img {
+        width: 60%;
+    }
+
+    #about-content .yes img {
+        width: 35%;
+    }
+
+    #about-content .container-fluid {
+        width: 90%;
+    }
+
+    #border {
+        margin-top: -28%;
+    }
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1199px) {
+
+    #about-banner .cnt-banner {
+        transform: translate(16%, 0);
+    }
+
+    #about-banner h1 {
+        font-size: 3.5rem;
+    }
+
+    #about-content {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    #border {
+        margin-top: -44px;
+    }
+
+    #about-content .container-fluid {
+        width: 90%;
+    }
+
+    #about-content .kist img {
+        width: 60%;
+    }
+
+    #about-content .yes img {
+        width: 35%;
+    }
+
+    #about-banner .caption {
+        margin-top: 50%
+    }
+
+    #about-banner h2::after {
+        width: 38vw
+    }
+
+}
+
+@media only screen and (min-width : 768px) and (max-width :1023px) {
+
+    #about-banner h1::after {
+        width: 410px;
+    }
+
+    #about-banner .cnt-banner {
+        transform: translate(13%, 0);
+    }
+
+    #about-banner {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #about-banner h1 {
+        font-size: 3.5rem;
+    }
+
+    #about-banner .container-fluid {
+        width: 90%;
+    }
+
+    #about-banner h2 {
+        margin-left: 0%;
+    }
+
+    #about-banner h2::after {
+        width: 60vw
+    }
+
+    #about-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #about-content h3 {
+        font-size: 2.5rem
+    }
+
+    #about-banner h2 {
+        font-size: 2.5rem
+    }
+
+    #about-content .kist img {
+        width: 80%;
+    }
+
+    #about-content .yes img {
+        width: 30%;
+    }
+
+    #about-content .kist {
+        width: 50%;
+        margin-left: 0%;
+    }
+
+    #about-content .yes {
+        width: 50%;
+    }
+
+    #about-banner .caption {
+        margin-top: 70%;
+        width: 80%
+    }
+
+    #header .active {
+        color: #fff !important
+    }
+
+    #header .hea-er i {
+        color: #fff;
+        display: block;
+    }
+
+    #cssmenu>ul>li:hover>a {
+        color: #f26726 !important;
+    }
+
+
+}
+
+@media only screen and (min-width : 150px) and (max-width : 767px) {
+
+    #about-banner h1::after {
+        width: 270px;
+    }
+
+
+    #about-banner {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #about-banner .cnt-banner {
+        transform: translate(12%, 0);
+        width: 320px;
+    }
+
+    #about-banner h1 {
+        font-size: 3rem;
+    }
+
+    #about-content .kist img {
+        width: 80%;
+    }
+
+    #about-content .yes img {
+        width: 30%;
+    }
+
+    #about-content .kist {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    #about-content .yes {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+
+
+
+
+
+
+
+    #about-banner h2 {
+        width: 100%;
+        padding: 20px;
+        font-size: 2.8rem;
+        margin-left: 0%;
+        margin-top: 125%;
+        margin-bottom: 10%
+    }
+
+    #border {
+        margin-top: -33px;
+    }
+
+    #about-content {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    #about-content .container-fluid {
+        width: 90%;
+    }
+
+    #about-content h3 {
+        font-size: 2.5rem;
+    }
+
+    #about-content p {
+        margin-top: 15px;
+    }
+
+    #header {
+        padding-bottom: 0px;
+    }
+
+
+}
+
+@media only screen and (max-width : 375px) {
+    #border {
+        margin-top: -22px;
+    }
+
+
+
+    #about-banner h2 {
+        margin-top: 150%;
+    }
+
+
+}
+
+@media only screen and (max-width : 320px) {
+
+    #border {
+        margin-top: -19px;
+    }
+
+
+
+    #about-banner h2 {
+        margin-top: 150%;
+        margin-bottom: 0%
+    }
+
+
+    #trusted-content span {
+        font-size: 2.2rem;
+    }
+
+
+}

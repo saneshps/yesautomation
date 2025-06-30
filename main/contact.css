@@ -1,0 +1,377 @@
+#header {
+    padding-bottom: 10px;
+}
+
+
+#border {
+    border-bottom: 2px solid #dadada;
+    position: absolute;
+    width: 100%;
+    margin-top: -42px;
+    z-index: -9;
+}
+
+
+#contact-banner {
+    background: url(../images/contact.jpg) center top no-repeat;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+}
+
+#contact-banner .container-fluid {}
+
+#contact-banner .caption {
+    left: 3%;
+    width: 45%;
+    margin-top: 39%;
+    text-align: left;
+    background: #f26726;
+    height: 150px;
+    border-left: 15px solid #ffffff;
+    padding-top: 30px;
+    position: relative;
+}
+
+.cnt-banner {
+    transform: translate(20%, 0);
+    position: absolute;
+    left: 0%;
+    top: 55%;
+    background: #f26726;
+    width: 430px;
+    height: auto !important;
+    border-left: 8px solid #fff;
+}
+
+#contact-banner h1 {
+    font-size: 4.5rem;
+    color: #fff;
+    font-family: CircularStd-Bold, HelveticaNeue-Medium, Helvetica Neue medium, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+    padding: 20px 20px 20px 20px;
+}
+
+/* #contact-banner h1:after {
+    content: " ";
+    position: absolute;
+    background: #fff;
+    height: 4px;
+    left: 20px;
+    right: 20px;
+    bottom: 35px;
+    width: 240px;
+} */
+
+#contact-content .container-fluid {
+    width: 90%;
+}
+
+#contact-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #dedede;
+}
+
+#contact-content h2 {
+    font-weight: 600;
+    color: #f26726;
+    margin-top: 30px;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+#contact-content p {
+    line-height: 24px;
+    font-size: 1.6rem;
+    color: #494b42;
+    margin: 0 0 2.6rem;
+    margin-top: 22px;
+    letter-spacing: -.0rem;
+}
+
+#contact-content span {
+    color: #f26726;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+#contact-content h4 {
+    font-size: 1.8rem;
+    color: #f26726;
+    margin-top: 22px;
+    margin-bottom: 25px;
+}
+
+#contact-content .up p {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+#contact-content h5 {
+    font-size: 1.5rem;
+    margin-top: 0px;
+}
+
+#contact-content .bodx {
+    background: #f0f0f0;
+    padding: 20px 15px 15px 15px;
+    margin-top: 20px
+}
+
+#contact-content span:hover {
+    color: #000;
+}
+
+#contact-form .container-fluid {
+    width: 90%;
+}
+
+#contact-form {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#contact-form h2 {
+    color: #161616;
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin-bottom: 22px;
+}
+
+#contact-form p {
+    font-size: 1.6rem;
+}
+
+#contact-form form {
+    margin-top: 1%;
+}
+
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 1.2rem;
+    outline: -webkit-focus-ring-color auto 0px;
+
+}
+
+input[type=submit] {
+    background-color: #f26726;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1.4rem;
+    outline: -webkit-focus-ring-color auto 0px;
+
+}
+
+input[type=submit]:hover {
+    background-color: #707174;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+
+
+
+@media only screen and (min-width : 1920px) and (max-width : 2560px) {}
+
+@media only screen and (min-width : 1600px) and (max-width : 1919px) {
+
+
+    #contact-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #contact-form {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+
+
+}
+
+@media only screen and (min-width : 1440px) and (max-width : 1599px) {}
+
+@media only screen and (min-width : 1366px) and (max-width : 1439px) {
+
+    #about-banner h2 {
+        font-size: 30px
+    }
+
+
+    #contact-content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #contact-form {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+
+
+}
+
+@media only screen and (min-width : 1200px) and (max-width : 1365px) {
+
+    #contact-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #contact-form {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1199px) {
+    .cnt-banner {
+        transform: translate(16%, 0);
+    }
+
+
+    #contact-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #contact-form {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+
+}
+
+@media only screen and (min-width : 768px) and (max-width :1023px) {
+
+    .cnt-banner {
+        transform: translate(13%, 0);
+    }
+
+
+    #contact-banner {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    #contact-banner .container-fluid {
+        width: 90%;
+    }
+
+    #contact-banner h1 {}
+
+
+
+    #contact-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #contact-form {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+
+
+
+
+}
+
+@media only screen and (min-width : 150px) and (max-width : 767px) {
+
+    #contact-banner {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .cnt-banner {
+        transform: translate(12%, 0);
+        width: 320px;
+    }
+
+
+    #contact-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #contact-form {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    #contact-content .container-fluid {
+        width: 90%;
+    }
+
+    #contact-content h2 {
+        font-size: 2.5rem;
+    }
+
+    #contact-form h2 {
+        font-size: 26px;
+    }
+
+    #contact-content p {
+        width: 100%;
+    }
+
+    #contact-form .container-fluid {
+        width: 100%;
+    }
+
+
+    #header {
+        padding-bottom: 0px;
+    }
+
+}
+
+@media only screen and (max-width : 375px) {
+
+    #contact-banner h1 {
+        margin-top: 54%;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width : 320px) {
+
+
+    #contact-banner h1 {
+        margin-top: 64%;
+        margin-bottom: 12%;
+        width: 100%;
+    }
+
+}
