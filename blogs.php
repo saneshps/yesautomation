@@ -89,15 +89,9 @@
 
 	</section>
 
-
-
-
-
 	<section id="blog">
 
 		<div class="container-fluid">
-
-
 
 			<div class="row">
 
@@ -106,6 +100,18 @@
 					<div class="row blog-first">
 
 
+					<div class="col-md-4 col-sm-6 col-xs-12">
+
+							<a href="blog/why-renting-pipe-cutting-machines-is-smarter-than-buying-in-2025.php" target="_blank">
+
+								<figure><img src="../images/blog/why-renting-pipe-cutting-machines-is-smarter-than-buying-in-2025.jpg" alt="Why Renting Pipe Cutting Machines Is Smarter Than Buying in 2025 | Yes Automation"></figure>
+
+								<h2>Why Renting Pipe Cutting Machines Is Smarter Than Buying in 2025 | Yes Automation
+								</h2>
+
+							</a>
+
+						</div>
 					<div class="col-md-4 col-sm-6 col-xs-12">
 
 							<a href="blog/advantages-of-renting-stud-welding-machines.php" target="_blank">
@@ -117,6 +123,7 @@
 							</a>
 
 						</div>
+					
 
 
 
@@ -596,29 +603,7 @@
 
 						</div>
 
-
-
-
-
-
-
-
-
-
-
 					</div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 				</div>
 
