@@ -89,6 +89,16 @@
 					    
 					    <div class="col-md-4 col-sm-6 col-xs-12">
 
+							<a href="blog/overhang-beam-rental-for-glass-and-facade-installation-guide.php">
+
+								<figure><img src="images/blog/overhang-beam-rental-for-glass-and-facade-installation-guide.webp" alt="Overhang Beam Rental in UAE: A Complete Guide for Glass and Façade Installation"></figure>
+
+								<h2> Overhang Beam Rental in UAE: A Complete Guide for Glass and Façade Installation </h2>
+							</a>
+						</div>
+					    
+					    <div class="col-md-4 col-sm-6 col-xs-12">
+
 							<a href="blog/how-to-choose-a-sweeper-machine-for-rent-in-uae.php">
 
 								<figure><img src="images/blog/how-to-choose-a-sweeper-machine-for-rent-in-uae.webp" alt="How to Choose a Sweeper Machine for Rent in UAE"></figure>
