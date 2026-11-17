@@ -1,0 +1,270 @@
+[07-Nov-2025 11:28:45 America/Chicago] PHP Warning:  Undefined array key "email" in /home4/hcoyym1o/public_html/contact.php on line 5
+[08-Nov-2025 02:02:02 America/Chicago] PHP Warning:  Undefined array key "email" in /home4/hcoyym1o/public_html/contact.php on line 5
+[09-Nov-2025 21:54:45 America/Chicago] PHP Warning:  Undefined array key "email" in /home4/hcoyym1o/public_html/contact.php on line 5
+[10-Nov-2025 00:54:24 America/Chicago] PHP Warning:  Undefined array key "email" in /home4/hcoyym1o/public_html/contact.php on line 5
+[10-Nov-2025 01:06:46 America/Chicago] PHP Warning:  Undefined array key "name" in /home4/hcoyym1o/public_html/functions.php on line 56
+[10-Nov-2025 01:06:46 America/Chicago] PHP Warning:  Undefined array key "company" in /home4/hcoyym1o/public_html/functions.php on line 89
+[10-Nov-2025 01:06:46 America/Chicago] PHP Warning:  Undefined array key "phone" in /home4/hcoyym1o/public_html/functions.php on line 90
+[10-Nov-2025 01:06:46 America/Chicago] PHP Warning:  Undefined array key "city" in /home4/hcoyym1o/public_html/functions.php on line 91
+[10-Nov-2025 01:06:46 America/Chicago] PHP Warning:  Undefined array key "category_id" in /home4/hcoyym1o/public_html/functions.php on line 121
+[10-Nov-2025 01:06:46 America/Chicago] PHP Warning:  Undefined array key "delivery_method" in /home4/hcoyym1o/public_html/functions.php on line 122
+[10-Nov-2025 01:06:46 America/Chicago] PHP Warning:  Undefined array key "remarks" in /home4/hcoyym1o/public_html/functions.php on line 124
+[10-Nov-2025 01:06:46 America/Chicago] PHP Warning:  Undefined array key "rental_from" in /home4/hcoyym1o/public_html/functions.php on line 125
+[10-Nov-2025 01:06:46 America/Chicago] PHP Warning:  Undefined array key "rental_to" in /home4/hcoyym1o/public_html/functions.php on line 126
+[10-Nov-2025 01:06:46 America/Chicago] PHP Warning:  Undefined array key "duration_from" in /home4/hcoyym1o/public_html/functions.php on line 127
+[10-Nov-2025 01:06:46 America/Chicago] PHP Warning:  Undefined array key "duration_to" in /home4/hcoyym1o/public_html/functions.php on line 128
+[10-Nov-2025 01:06:46 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '', '' , '', 0, '', '', '',1,'2025-11-10 01:06:46','2025-11-10 01:06:46')' at line 3 in /home4/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home4/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home4/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, 702)
+#2 {main}
+  thrown in /home4/hcoyym1o/public_html/functions.php on line 136
+[10-Nov-2025 01:06:51 America/Chicago] PHP Warning:  Undefined array key "name" in /home4/hcoyym1o/public_html/functions.php on line 56
+[10-Nov-2025 01:06:52 America/Chicago] PHP Warning:  Undefined array key "company" in /home4/hcoyym1o/public_html/functions.php on line 89
+[10-Nov-2025 01:06:52 America/Chicago] PHP Warning:  Undefined array key "phone" in /home4/hcoyym1o/public_html/functions.php on line 90
+[10-Nov-2025 01:06:52 America/Chicago] PHP Warning:  Undefined array key "city" in /home4/hcoyym1o/public_html/functions.php on line 91
+[10-Nov-2025 01:06:52 America/Chicago] PHP Warning:  Undefined array key "category_id" in /home4/hcoyym1o/public_html/functions.php on line 121
+[10-Nov-2025 01:06:52 America/Chicago] PHP Warning:  Undefined array key "delivery_method" in /home4/hcoyym1o/public_html/functions.php on line 122
+[10-Nov-2025 01:06:52 America/Chicago] PHP Warning:  Undefined array key "remarks" in /home4/hcoyym1o/public_html/functions.php on line 124
+[10-Nov-2025 01:06:52 America/Chicago] PHP Warning:  Undefined array key "rental_from" in /home4/hcoyym1o/public_html/functions.php on line 125
+[10-Nov-2025 01:06:52 America/Chicago] PHP Warning:  Undefined array key "rental_to" in /home4/hcoyym1o/public_html/functions.php on line 126
+[10-Nov-2025 01:06:52 America/Chicago] PHP Warning:  Undefined array key "duration_from" in /home4/hcoyym1o/public_html/functions.php on line 127
+[10-Nov-2025 01:06:52 America/Chicago] PHP Warning:  Undefined array key "duration_to" in /home4/hcoyym1o/public_html/functions.php on line 128
+[10-Nov-2025 01:06:52 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '', '' , '', 0, '', '', '',1,'2025-11-10 01:06:52','2025-11-10 01:06:52')' at line 3 in /home4/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home4/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home4/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, '702')
+#2 {main}
+  thrown in /home4/hcoyym1o/public_html/functions.php on line 136
+[13-Nov-2025 04:52:14 America/Chicago] PHP Warning:  Undefined array key "email" in /home4/hcoyym1o/public_html/contact.php on line 5
+[15-Nov-2025 20:03:05 America/Chicago] PHP Warning:  Undefined array key "email" in /home4/hcoyym1o/public_html/contact.php on line 5
+[16-Nov-2025 17:39:59 America/Chicago] PHP Warning:  Undefined array key "email" in /home4/hcoyym1o/public_html/contact.php on line 5
+[17-Nov-2025 01:08:47 America/Chicago] PHP Warning:  Undefined array key "email" in /home4/hcoyym1o/public_html/contact.php on line 5
+[17-Nov-2025 11:04:22 America/Chicago] PHP Warning:  Undefined array key "email" in /home4/hcoyym1o/public_html/contact.php on line 5
+[17-Nov-2025 15:00:33 America/Chicago] PHP Warning:  Undefined array key "email" in /home4/hcoyym1o/public_html/contact.php on line 5
+[17-Nov-2025 23:11:24 America/Chicago] PHP Warning:  Undefined array key "email" in /home4/hcoyym1o/public_html/contact.php on line 5
+[19-Nov-2025 01:27:00 America/Chicago] PHP Warning:  Undefined array key "email" in /home4/hcoyym1o/public_html/contact.php on line 5
+[19-Nov-2025 01:49:53 America/Chicago] PHP Warning:  Undefined array key "email" in /home4/hcoyym1o/public_html/contact.php on line 5
+[20-Nov-2025 05:15:32 America/Chicago] PHP Warning:  Undefined array key "email" in /home4/hcoyym1o/public_html/contact.php on line 5
+[20-Nov-2025 20:08:43 America/Chicago] PHP Warning:  Undefined array key "email" in /home4/hcoyym1o/public_html/contact.php on line 5
+[20-Nov-2025 20:38:42 America/Chicago] PHP Warning:  Undefined array key "email" in /home4/hcoyym1o/public_html/contact.php on line 5
+[21-Nov-2025 01:25:40 America/Chicago] PHP Warning:  Undefined array key "email" in /home4/hcoyym1o/public_html/contact.php on line 5
+[22-Nov-2025 00:53:18 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[23-Nov-2025 01:38:57 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[24-Nov-2025 22:36:58 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[25-Nov-2025 15:54:09 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[25-Nov-2025 19:51:18 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[26-Nov-2025 23:00:22 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[26-Nov-2025 23:16:29 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[27-Nov-2025 17:15:55 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[28-Nov-2025 23:47:01 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[29-Nov-2025 18:58:34 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[29-Nov-2025 20:19:37 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[30-Nov-2025 08:17:18 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[30-Nov-2025 08:28:21 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[01-Dec-2025 20:57:16 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[05-Dec-2025 05:07:34 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[05-Dec-2025 06:08:49 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Vacuum Lifter, '', '' , 'buyer', 0, '', '', '',1,'2025-12-05 06:08:49','2025-12-' at line 3 in /home2/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home2/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home2/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, 712)
+#2 {main}
+  thrown in /home2/hcoyym1o/public_html/functions.php on line 136
+[05-Dec-2025 06:15:53 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[06-Dec-2025 23:39:13 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[09-Dec-2025 01:40:04 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[14-Dec-2025 09:53:17 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[14-Dec-2025 13:28:06 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[14-Dec-2025 23:33:11 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[15-Dec-2025 01:43:47 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[15-Dec-2025 23:54:21 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[19-Dec-2025 15:01:06 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[21-Dec-2025 04:31:50 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[21-Dec-2025 14:59:13 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[21-Dec-2025 15:40:19 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[22-Dec-2025 19:15:38 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[25-Dec-2025 00:55:06 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[25-Dec-2025 07:50:20 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[28-Dec-2025 08:04:45 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[30-Dec-2025 08:46:51 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[30-Dec-2025 09:20:30 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/hcoyym1o/public_html/contact.php on line 5
+[31-Dec-2025 03:37:05 America/Chicago] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/hcoyym1o/public_html/contact.php on line 2
+[31-Dec-2025 03:37:27 America/Chicago] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/hcoyym1o/public_html/contact.php on line 2
+[31-Dec-2025 03:38:02 America/Chicago] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/hcoyym1o/public_html/contact.php on line 2
+[04-Jan-2026 07:28:19 America/Chicago] PHP Warning:  Undefined array key "name" in /home2/hcoyym1o/public_html/functions.php on line 56
+[04-Jan-2026 07:28:19 America/Chicago] PHP Warning:  Undefined array key "company" in /home2/hcoyym1o/public_html/functions.php on line 89
+[04-Jan-2026 07:28:19 America/Chicago] PHP Warning:  Undefined array key "phone" in /home2/hcoyym1o/public_html/functions.php on line 90
+[04-Jan-2026 07:28:19 America/Chicago] PHP Warning:  Undefined array key "city" in /home2/hcoyym1o/public_html/functions.php on line 91
+[04-Jan-2026 07:28:19 America/Chicago] PHP Warning:  Undefined array key "category_id" in /home2/hcoyym1o/public_html/functions.php on line 121
+[04-Jan-2026 07:28:19 America/Chicago] PHP Warning:  Undefined array key "delivery_method" in /home2/hcoyym1o/public_html/functions.php on line 122
+[04-Jan-2026 07:28:19 America/Chicago] PHP Warning:  Undefined array key "remarks" in /home2/hcoyym1o/public_html/functions.php on line 124
+[04-Jan-2026 07:28:19 America/Chicago] PHP Warning:  Undefined array key "rental_from" in /home2/hcoyym1o/public_html/functions.php on line 125
+[04-Jan-2026 07:28:19 America/Chicago] PHP Warning:  Undefined array key "rental_to" in /home2/hcoyym1o/public_html/functions.php on line 126
+[04-Jan-2026 07:28:19 America/Chicago] PHP Warning:  Undefined array key "duration_from" in /home2/hcoyym1o/public_html/functions.php on line 127
+[04-Jan-2026 07:28:19 America/Chicago] PHP Warning:  Undefined array key "duration_to" in /home2/hcoyym1o/public_html/functions.php on line 128
+[04-Jan-2026 07:28:19 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '', '' , '', 0, '', '', '',1,'2026-01-04 07:28:19','2026-01-04 07:28:19')' at line 3 in /home2/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home2/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home2/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, 729)
+#2 {main}
+  thrown in /home2/hcoyym1o/public_html/functions.php on line 136
+[04-Jan-2026 07:30:51 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Vacuum Lifter, '', '' , 'supplier', 0, '', '', 'Need a quote on best Glass lifte' at line 3 in /home2/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home2/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home2/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, 730)
+#2 {main}
+  thrown in /home2/hcoyym1o/public_html/functions.php on line 136
+[04-Jan-2026 07:30:53 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Vacuum Lifter, '', '' , 'supplier', 0, '', '', 'Need a quote on best Glass lifte' at line 3 in /home2/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home2/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home2/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, '730')
+#2 {main}
+  thrown in /home2/hcoyym1o/public_html/functions.php on line 136
+[28-Jan-2026 06:21:02 America/Chicago] PHP Warning:  Undefined array key "name" in /home2/hcoyym1o/public_html/functions.php on line 56
+[28-Jan-2026 06:21:03 America/Chicago] PHP Warning:  Undefined array key "company" in /home2/hcoyym1o/public_html/functions.php on line 89
+[28-Jan-2026 06:21:03 America/Chicago] PHP Warning:  Undefined array key "phone" in /home2/hcoyym1o/public_html/functions.php on line 90
+[28-Jan-2026 06:21:03 America/Chicago] PHP Warning:  Undefined array key "city" in /home2/hcoyym1o/public_html/functions.php on line 91
+[28-Jan-2026 06:21:03 America/Chicago] PHP Warning:  Undefined array key "category_id" in /home2/hcoyym1o/public_html/functions.php on line 121
+[28-Jan-2026 06:21:03 America/Chicago] PHP Warning:  Undefined array key "delivery_method" in /home2/hcoyym1o/public_html/functions.php on line 122
+[28-Jan-2026 06:21:03 America/Chicago] PHP Warning:  Undefined array key "remarks" in /home2/hcoyym1o/public_html/functions.php on line 124
+[28-Jan-2026 06:21:03 America/Chicago] PHP Warning:  Undefined array key "rental_from" in /home2/hcoyym1o/public_html/functions.php on line 125
+[28-Jan-2026 06:21:03 America/Chicago] PHP Warning:  Undefined array key "rental_to" in /home2/hcoyym1o/public_html/functions.php on line 126
+[28-Jan-2026 06:21:03 America/Chicago] PHP Warning:  Undefined array key "duration_from" in /home2/hcoyym1o/public_html/functions.php on line 127
+[28-Jan-2026 06:21:03 America/Chicago] PHP Warning:  Undefined array key "duration_to" in /home2/hcoyym1o/public_html/functions.php on line 128
+[28-Jan-2026 06:21:03 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '', '' , '', 0, '', '', '',1,'2026-01-28 06:21:03','2026-01-28 06:21:03')' at line 3 in /home2/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home2/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home2/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, 750)
+#2 {main}
+  thrown in /home2/hcoyym1o/public_html/functions.php on line 136
+[22-Feb-2026 14:13:37 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Vacuum Lifter, '', '' , 'buyer', 1, '', '', 'xbEJcrfXRQcnsFmRHdo',1,'2026-02-22 ' at line 3 in /home2/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home2/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home2/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, 768)
+#2 {main}
+  thrown in /home2/hcoyym1o/public_html/functions.php on line 136
+[01-Apr-2026 14:15:09 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Vacuum Lifter, '', '' , 'buyer', 1, '', '', 'CgENmXvtHEVLTxaDGtQ',1,'2026-04-01 ' at line 3 in /home2/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home2/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home2/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, 793)
+#2 {main}
+  thrown in /home2/hcoyym1o/public_html/functions.php on line 136
+[01-Apr-2026 14:15:26 America/Chicago] PHP Warning:  Undefined array key "name" in /home2/hcoyym1o/public_html/functions.php on line 56
+[01-Apr-2026 14:15:26 America/Chicago] PHP Warning:  Undefined array key "company" in /home2/hcoyym1o/public_html/functions.php on line 89
+[01-Apr-2026 14:15:26 America/Chicago] PHP Warning:  Undefined array key "phone" in /home2/hcoyym1o/public_html/functions.php on line 90
+[01-Apr-2026 14:15:26 America/Chicago] PHP Warning:  Undefined array key "city" in /home2/hcoyym1o/public_html/functions.php on line 91
+[01-Apr-2026 14:15:26 America/Chicago] PHP Warning:  Undefined array key "category_id" in /home2/hcoyym1o/public_html/functions.php on line 121
+[01-Apr-2026 14:15:26 America/Chicago] PHP Warning:  Undefined array key "delivery_method" in /home2/hcoyym1o/public_html/functions.php on line 122
+[01-Apr-2026 14:15:26 America/Chicago] PHP Warning:  Undefined array key "remarks" in /home2/hcoyym1o/public_html/functions.php on line 124
+[01-Apr-2026 14:15:26 America/Chicago] PHP Warning:  Undefined array key "rental_from" in /home2/hcoyym1o/public_html/functions.php on line 125
+[01-Apr-2026 14:15:26 America/Chicago] PHP Warning:  Undefined array key "rental_to" in /home2/hcoyym1o/public_html/functions.php on line 126
+[01-Apr-2026 14:15:26 America/Chicago] PHP Warning:  Undefined array key "duration_from" in /home2/hcoyym1o/public_html/functions.php on line 127
+[01-Apr-2026 14:15:26 America/Chicago] PHP Warning:  Undefined array key "duration_to" in /home2/hcoyym1o/public_html/functions.php on line 128
+[01-Apr-2026 14:15:26 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '', '' , '', 0, '', '', '',1,'2026-04-01 02:15:26','2026-04-01 02:15:26')' at line 3 in /home2/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home2/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home2/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, 794)
+#2 {main}
+  thrown in /home2/hcoyym1o/public_html/functions.php on line 136
+[01-Apr-2026 14:15:31 America/Chicago] PHP Warning:  Undefined array key "name" in /home2/hcoyym1o/public_html/functions.php on line 56
+[01-Apr-2026 14:15:31 America/Chicago] PHP Warning:  Undefined array key "company" in /home2/hcoyym1o/public_html/functions.php on line 89
+[01-Apr-2026 14:15:31 America/Chicago] PHP Warning:  Undefined array key "phone" in /home2/hcoyym1o/public_html/functions.php on line 90
+[01-Apr-2026 14:15:31 America/Chicago] PHP Warning:  Undefined array key "city" in /home2/hcoyym1o/public_html/functions.php on line 91
+[01-Apr-2026 14:15:31 America/Chicago] PHP Warning:  Undefined array key "category_id" in /home2/hcoyym1o/public_html/functions.php on line 121
+[01-Apr-2026 14:15:31 America/Chicago] PHP Warning:  Undefined array key "delivery_method" in /home2/hcoyym1o/public_html/functions.php on line 122
+[01-Apr-2026 14:15:31 America/Chicago] PHP Warning:  Undefined array key "remarks" in /home2/hcoyym1o/public_html/functions.php on line 124
+[01-Apr-2026 14:15:31 America/Chicago] PHP Warning:  Undefined array key "rental_from" in /home2/hcoyym1o/public_html/functions.php on line 125
+[01-Apr-2026 14:15:31 America/Chicago] PHP Warning:  Undefined array key "rental_to" in /home2/hcoyym1o/public_html/functions.php on line 126
+[01-Apr-2026 14:15:31 America/Chicago] PHP Warning:  Undefined array key "duration_from" in /home2/hcoyym1o/public_html/functions.php on line 127
+[01-Apr-2026 14:15:31 America/Chicago] PHP Warning:  Undefined array key "duration_to" in /home2/hcoyym1o/public_html/functions.php on line 128
+[01-Apr-2026 14:15:31 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '', '' , '', 0, '', '', '',1,'2026-04-01 02:15:31','2026-04-01 02:15:31')' at line 3 in /home2/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home2/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home2/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, '794')
+#2 {main}
+  thrown in /home2/hcoyym1o/public_html/functions.php on line 136
+[01-Apr-2026 14:15:36 America/Chicago] PHP Warning:  Undefined array key "name" in /home2/hcoyym1o/public_html/functions.php on line 56
+[01-Apr-2026 14:15:36 America/Chicago] PHP Warning:  Undefined array key "company" in /home2/hcoyym1o/public_html/functions.php on line 89
+[01-Apr-2026 14:15:36 America/Chicago] PHP Warning:  Undefined array key "phone" in /home2/hcoyym1o/public_html/functions.php on line 90
+[01-Apr-2026 14:15:36 America/Chicago] PHP Warning:  Undefined array key "city" in /home2/hcoyym1o/public_html/functions.php on line 91
+[01-Apr-2026 14:15:36 America/Chicago] PHP Warning:  Undefined array key "category_id" in /home2/hcoyym1o/public_html/functions.php on line 121
+[01-Apr-2026 14:15:36 America/Chicago] PHP Warning:  Undefined array key "delivery_method" in /home2/hcoyym1o/public_html/functions.php on line 122
+[01-Apr-2026 14:15:36 America/Chicago] PHP Warning:  Undefined array key "remarks" in /home2/hcoyym1o/public_html/functions.php on line 124
+[01-Apr-2026 14:15:36 America/Chicago] PHP Warning:  Undefined array key "rental_from" in /home2/hcoyym1o/public_html/functions.php on line 125
+[01-Apr-2026 14:15:36 America/Chicago] PHP Warning:  Undefined array key "rental_to" in /home2/hcoyym1o/public_html/functions.php on line 126
+[01-Apr-2026 14:15:36 America/Chicago] PHP Warning:  Undefined array key "duration_from" in /home2/hcoyym1o/public_html/functions.php on line 127
+[01-Apr-2026 14:15:36 America/Chicago] PHP Warning:  Undefined array key "duration_to" in /home2/hcoyym1o/public_html/functions.php on line 128
+[01-Apr-2026 14:15:36 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '', '' , '', 0, '', '', '',1,'2026-04-01 02:15:36','2026-04-01 02:15:36')' at line 3 in /home2/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home2/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home2/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, '794')
+#2 {main}
+  thrown in /home2/hcoyym1o/public_html/functions.php on line 136
+[20-Apr-2026 06:38:41 America/Chicago] PHP Warning:  Undefined array key "name" in /home2/hcoyym1o/public_html/functions.php on line 56
+[20-Apr-2026 06:38:41 America/Chicago] PHP Warning:  Undefined array key "company" in /home2/hcoyym1o/public_html/functions.php on line 89
+[20-Apr-2026 06:38:41 America/Chicago] PHP Warning:  Undefined array key "phone" in /home2/hcoyym1o/public_html/functions.php on line 90
+[20-Apr-2026 06:38:41 America/Chicago] PHP Warning:  Undefined array key "city" in /home2/hcoyym1o/public_html/functions.php on line 91
+[20-Apr-2026 06:38:41 America/Chicago] PHP Warning:  Undefined array key "category_id" in /home2/hcoyym1o/public_html/functions.php on line 121
+[20-Apr-2026 06:38:41 America/Chicago] PHP Warning:  Undefined array key "delivery_method" in /home2/hcoyym1o/public_html/functions.php on line 122
+[20-Apr-2026 06:38:41 America/Chicago] PHP Warning:  Undefined array key "remarks" in /home2/hcoyym1o/public_html/functions.php on line 124
+[20-Apr-2026 06:38:41 America/Chicago] PHP Warning:  Undefined array key "rental_from" in /home2/hcoyym1o/public_html/functions.php on line 125
+[20-Apr-2026 06:38:41 America/Chicago] PHP Warning:  Undefined array key "rental_to" in /home2/hcoyym1o/public_html/functions.php on line 126
+[20-Apr-2026 06:38:41 America/Chicago] PHP Warning:  Undefined array key "duration_from" in /home2/hcoyym1o/public_html/functions.php on line 127
+[20-Apr-2026 06:38:41 America/Chicago] PHP Warning:  Undefined array key "duration_to" in /home2/hcoyym1o/public_html/functions.php on line 128
+[20-Apr-2026 06:38:41 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '', '' , '', 0, '', '', '',1,'2026-04-20 06:38:41','2026-04-20 06:38:41')' at line 3 in /home2/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home2/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home2/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, 806)
+#2 {main}
+  thrown in /home2/hcoyym1o/public_html/functions.php on line 136
+[26-Apr-2026 08:43:57 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Vacuum Lifter, '', '' , 'buyer', 1, '', '', 'POTTXOpwHvYslBfv',1,'2026-04-26 08:' at line 3 in /home2/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home2/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home2/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, 813)
+#2 {main}
+  thrown in /home2/hcoyym1o/public_html/functions.php on line 136
+[08-May-2026 11:27:38 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Vacuum Lifter, '', '' , 'supplier', 1, '', '', 'GGmTEVMINPfviUDZXehkXoA',1,'2026' at line 3 in /home2/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home2/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home2/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, 827)
+#2 {main}
+  thrown in /home2/hcoyym1o/public_html/functions.php on line 136
+[24-Jun-2026 01:11:48 America/Chicago] PHP Warning:  include(newsfeeds.php): Failed to open stream: No such file or directory in /home2/hcoyym1o/public_html/index.php on line 296
+[24-Jun-2026 01:11:48 America/Chicago] PHP Warning:  include(newsfeeds.php): Failed to open stream: No such file or directory in /home2/hcoyym1o/public_html/index.php on line 296
+[24-Jun-2026 01:11:48 America/Chicago] PHP Warning:  include(): Failed opening 'newsfeeds.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/hcoyym1o/public_html/index.php on line 296
+[24-Jun-2026 01:14:10 America/Chicago] PHP Warning:  include(newsfeeds.php): Failed to open stream: No such file or directory in /home2/hcoyym1o/public_html/index.php on line 296
+[24-Jun-2026 01:14:10 America/Chicago] PHP Warning:  include(newsfeeds.php): Failed to open stream: No such file or directory in /home2/hcoyym1o/public_html/index.php on line 296
+[24-Jun-2026 01:14:10 America/Chicago] PHP Warning:  include(): Failed opening 'newsfeeds.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/hcoyym1o/public_html/index.php on line 296
+[24-Jun-2026 01:15:17 America/Chicago] PHP Warning:  include(newsfeeds.php): Failed to open stream: No such file or directory in /home2/hcoyym1o/public_html/index.php on line 296
+[24-Jun-2026 01:15:17 America/Chicago] PHP Warning:  include(newsfeeds.php): Failed to open stream: No such file or directory in /home2/hcoyym1o/public_html/index.php on line 296
+[24-Jun-2026 01:15:17 America/Chicago] PHP Warning:  include(): Failed opening 'newsfeeds.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/hcoyym1o/public_html/index.php on line 296
+[03-Jul-2026 22:02:43 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Vacuum Lifter, '', '' , 'supplier', 1, '', '', 'SoRdusMACZDlaFzLtE',1,'2026-07-0' at line 3 in /home2/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home2/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home2/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, 875)
+#2 {main}
+  thrown in /home2/hcoyym1o/public_html/functions.php on line 136
+[03-Jul-2026 22:02:43 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Vacuum Lifter, '', '' , 'supplier', 1, '', '', 'SoRdusMACZDlaFzLtE',1,'2026-07-0' at line 3 in /home2/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home2/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home2/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, '875')
+#2 {main}
+  thrown in /home2/hcoyym1o/public_html/functions.php on line 136
+[17-Jul-2026 01:27:52 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Vacuum Lifter, '', '' , 'supplier', 1, '', '', 'kvJcjIVrWBwxDWEzDY',1,'2026-07-1' at line 3 in /home2/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home2/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home2/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, 888)
+#2 {main}
+  thrown in /home2/hcoyym1o/public_html/functions.php on line 136
+[06-Aug-2026 02:28:40 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Vacuum Lifter, '', '' , 'supplier', 1, '', '', 'SXFUTbnwqVoIGCyLnFISCNY',1,'2026' at line 3 in /home2/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home2/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home2/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, 904)
+#2 {main}
+  thrown in /home2/hcoyym1o/public_html/functions.php on line 136
+[22-Aug-2026 09:28:37 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Vacuum Lifter, '', '' , 'supplier', 1, '', '', 'UlwPGfEGRLXhnidt',1,'2026-08-22 ' at line 3 in /home2/hcoyym1o/public_html/functions.php:136
+Stack trace:
+#0 /home2/hcoyym1o/public_html/functions.php(136): mysqli->query('INSERT INTO `ya...')
+#1 /home2/hcoyym1o/public_html/postquoterequest.php(14): quoteRequest(Array, 923)
+#2 {main}
+  thrown in /home2/hcoyym1o/public_html/functions.php on line 136

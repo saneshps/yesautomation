@@ -1,0 +1,449 @@
+#header {
+    padding-bottom: 10px;
+}
+
+
+
+#about-banner {
+    background: url(../images/rent.jpg) center top no-repeat;
+    background-size: cover;
+    height: 100vh
+}
+
+#about-banner .container-fluid {}
+
+#about-banner .caption {
+    left: 3%;
+    width: 45%;
+    margin-top: 39%;
+    text-align: left;
+    background: #f26726;
+    height: 150px;
+    border-left: 15px solid #ffffff;
+    padding-top: 30px;
+    position: relative;
+}
+
+#about-banner h2 {
+    font-size: 3rem;
+    color: #fff;
+    text-align: left;
+    text-shadow: none;
+    padding: 0px 20px 0px 20px;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: CircularStd-Bold, HelveticaNeue-Medium, Helvetica Neue medium, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: -.02rem;
+    margin-top: 0;
+}
+
+#about-banner h2:after {
+    content: " ";
+    position: absolute;
+    background: #fff;
+    width: 39vw;
+    height: 4px;
+    left: 20px;
+    right: 0px;
+    top: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+#rental-banner {}
+
+.carousel {
+    z-index: -9;
+}
+
+.carousel-control {
+    width: 10%;
+    background: none;
+}
+
+#rental-banner .container-fluid {
+    width: 90%;
+}
+
+#rental-banner h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "CircularStdBold", Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.carousel-caption {
+    right: 57%;
+    left: 6%;
+    width: 44%;
+    padding: 25px;
+    bottom: 215px;
+    background: #9dc33b;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#rental-content .container-fluid {
+    width: 90%;
+}
+
+#rental-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #dedede;
+}
+
+#rental-content h3 {
+    font-weight: 600;
+    color: #9dc33b;
+    margin-top: 0px;
+    font-family: "CircularStdBold", Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+
+#rental-content p {
+    line-height: 24px;
+    font-size: 1.6rem;
+    color: #494b42;
+    margin: 0 0 2.6rem;
+    margin-top: 22px;
+    letter-spacing: -.0rem;
+}
+
+#rental-content span {
+    color: #9dc33b;
+    font-weight: 400;
+    font-size: 22px
+}
+
+
+/*.skdslider .slide-desc{top: 77%!important;}*/
+
+
+
+
+
+#rental-image .container-fluid {
+    width: 90%;
+}
+
+#rental-image {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#rental-image .top {
+    margin-top: 2%;
+}
+
+#rental-image h3 {
+    font-size: 1.6rem;
+    color: rgb(73, 75, 66);
+}
+
+#rental-image h2 {
+    font-size: 1.8rem;
+    color: rgb(73, 75, 66);
+}
+
+
+
+
+
+
+
+#rental-image figure {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#rental-image a img {
+    width: 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+
+#rental-image a:hover img {
+    transition: all .3s ease-in-out;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+
+
+
+
+
+@media only screen and (min-width : 1920px) and (max-width : 2560px) {}
+
+@media only screen and (min-width : 1600px) and (max-width : 1919px) {
+
+    #rental-content p {
+        margin-top: 0px;
+        margin: 0px;
+    }
+
+    #rental-banner {}
+
+}
+
+@media only screen and (min-width : 1440px) and (max-width : 1599px) {}
+
+@media only screen and (min-width : 1366px) and (max-width : 1439px) {
+
+
+    #rental-banner h2 {
+        margin-top: 60%;
+    }
+
+    #rental-content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #rental-content p {
+        width: 100%;
+        margin: 0px;
+        margin-top: 0px
+    }
+
+
+    #rental-banner {}
+
+
+
+    #about-banner h2 {
+        font-size: 3rem
+    }
+
+
+
+}
+
+@media only screen and (min-width : 1200px) and (max-width : 1365px) {
+
+    #rental-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #rental-content p {
+        width: 100%;
+        margin: 0px;
+        margin-top: 0px
+    }
+
+    #rental-banner h2 {
+        width: 49%;
+        margin-top: 70%;
+    }
+
+
+    #rental-banner {}
+
+
+
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1199px) {
+
+    #rental-banner h2 {
+        width: 49%;
+        margin-top: 80%;
+    }
+
+    #rental-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #rental-content p {
+        width: 100%;
+        margin: 0px;
+        margin-top: 0px
+    }
+
+    #rental-image {
+        padding-top: 55px;
+        padding-bottom: 40px;
+    }
+
+
+    #rental-banner {}
+
+
+}
+
+@media only screen and (min-width : 768px) and (max-width :1023px) {
+
+    #rental-banner {}
+
+    #rental-banner .container-fluid {
+        width: 90%;
+    }
+
+    #rental-banner h2 {
+        width: 65%;
+        margin-top: 100%;
+    }
+
+    #rental-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #rental-content p {
+        width: 100%;
+        margin: 0px;
+        margin-top: 0px;
+    }
+
+    #rental-image .top1 {
+        margin-top: 2%;
+    }
+
+    #rental-image {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .skdslider .slide-desc {
+        top: 70% !important;
+    }
+
+
+    #about-banner {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #about-banner .container-fluid {
+        width: 90%;
+    }
+
+    #about-banner h2 {
+        margin-left: -3%;
+    }
+
+    #about-banner h2 {
+        font-size: 2.5rem
+    }
+
+
+}
+
+@media only screen and (min-width : 150px) and (max-width : 767px) {
+    #rental-banner {}
+
+    #rental-banner h2 {
+        width: 100%;
+        margin-top: 75%;
+    }
+
+    #rental-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #rental-image {
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    #rental-content .container-fluid {
+        width: 90%;
+    }
+
+    #rental-content h3 {
+        font-size: 20px;
+    }
+
+    #rental-content p {
+        margin-top: 0px;
+        margin: 0px
+    }
+
+    #rental-image .container-fluid {
+        width: 90%;
+    }
+
+    #rental-image .container-fluid .col-sm-6 {
+        margin-bottom: 10%;
+    }
+
+    .skdslider .slide-desc {
+        top: 64% !important;
+    }
+
+    #header {
+        padding-bottom: 0px;
+    }
+
+    #about-banner {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #about-banner h2 {
+        width: 100%;
+        padding: 20px;
+        font-size: 2.8rem;
+        margin-left: 0%;
+        margin-top: 125%;
+        margin-bottom: 10%
+    }
+
+
+
+}
+
+@media only screen and (max-width : 375px) {
+    #about-banner h2 {
+        margin-top: 150%;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+
+    #about-banner h2 {
+        margin-top: 150%;
+        margin-bottom: 0%
+    }
+
+    #rental-banner h2 {
+        margin-top: 120%;
+    }
+}

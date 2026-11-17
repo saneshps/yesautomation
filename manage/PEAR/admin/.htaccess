@@ -1,0 +1,4 @@
+AuthUserFile /home/content/91/10630191/html/PEAR/PEAR/admin/.htpasswd
+AuthType Basic
+AuthName “Web-based PEAR Frontend”
+Require valid-user

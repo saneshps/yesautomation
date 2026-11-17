@@ -1,0 +1,2126 @@
+#header {
+    padding-bottom: 10px;
+}
+
+#header a.active2:hover {
+    padding: 8px 0px 11px 0px;
+}
+
+#header .active2 i {
+    color: #484849;
+    border-bottom: 0px solid #f26726;
+    padding-bottom: 0px;
+    margin-right: 0em;
+}
+
+#header .active2 i:hover {
+    color: #f26726;
+    border-bottom: 0px solid #f26726;
+    padding: 0px 0px 0px 0px;
+}
+
+
+
+#header .right a {
+
+    color: #484849;
+}
+
+#cssmenu>ul>li>a {
+    color: #484849 !important;
+}
+
+#cssmenu>ul>li>a:hover {
+
+    border-bottom: 2px solid #f26726;
+
+    padding: 17px 0px 11px 0px;
+
+    color: #f26726 !important;
+    ;
+}
+
+#header i {
+    color: #f26726
+}
+
+
+
+
+
+#blog img {
+    width: 100%
+}
+
+
+
+.ne:before {
+    display: block;
+}
+
+
+
+
+
+/*bANNER*/
+
+
+
+.pattern {
+
+    position: absolute;
+
+    top: 0;
+
+    bottom: -1px;
+
+    right: 0;
+
+    width: 44%;
+
+    height: 100%;
+
+    background-size: contain;
+
+    background-repeat: no-repeat;
+
+    -webkit-transition: all .1s ease;
+
+    transition: all .1s ease;
+
+}
+
+
+
+.pattern--lines {
+
+    background-image: url(../images/overlay-lines1.png);
+
+    background-position: 100% 0;
+    opacity: .5;
+
+}
+
+
+
+
+
+
+
+.sli__text {
+    height: 230px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.08);
+
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.08);
+
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.08);
+    background: #f26726;
+}
+
+#rhino-banner .slide__text h2 {
+    color: #484849;
+}
+
+#rhino-banner .slide__text h2:after {
+    background: #fff;
+}
+
+#rhino-banner .slide__text {
+    height: 160px;
+}
+
+#rhino-banner .slide__text h2:after {
+    top: 190px;
+}
+
+
+
+
+
+#machinery-banner {}
+
+.carousel {
+    z-index: -9;
+}
+
+.carousel-control {
+    width: 10%;
+    background: none;
+}
+
+#machinery-banner .container-fluid {
+    width: 80%;
+}
+
+#machinery-banner h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "CircularStdBold", Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.carousel-caption {
+    right: 57%;
+    left: 5%;
+    padding: 20px;
+    bottom: 215px;
+    background: #f26726;
+}
+
+
+
+.carousel-inner img {
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+
+
+
+
+#machinery-image .top a img {
+    vertical-align: middle;
+    width: 10%
+}
+
+
+
+#machinery-content .container-fluid {
+    width: 80%;
+}
+
+#machinery-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#machinery-content h3 {
+    font-weight: 600;
+    color: #f26726;
+    margin-top: 0px;
+    font-family: "CircularStdBold", Arial, sans-serif;
+    font-size: 30px;
+}
+
+#machinery-content p {
+    line-height: 24px;
+    font-size: 16px;
+    font-family: Circular Std Medium, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;
+    width: 79%;
+    color: rgb(73, 75, 66);
+    margin-top: 22px;
+}
+
+#machinery-content span {
+    color: #f26726;
+    font-weight: 600;
+}
+
+
+
+
+
+#machinery-image .li-2 li {
+
+    display: block;
+
+    background: url(../images/bull.png) left top no-repeat;
+
+    background-position: 0px 6px;
+
+    padding-left: 22px;
+
+    padding-bottom: 10px;
+
+}
+
+
+
+
+
+#machinery-image .accordion {
+
+    width: 100%;
+
+    max-width: 100%;
+    padding: 0px;
+
+    background: #f26726;
+
+}
+
+
+
+#machinery-image .accordion li {
+    list-style-type: none;
+}
+
+
+
+#machinery-image .accordion .link span {
+    margin-right: 2%;
+}
+
+#machinery-image .accordion .link {
+
+    cursor: pointer;
+
+    display: block;
+
+    padding: 15px 15px 15px 15px;
+
+    color: #000;
+
+    font-size: 1.8rem;
+
+    font-weight: 600;
+
+    border-bottom: 1px solid #fff;
+
+    position: relative;
+
+    -webkit-transition: all 0.4s ease;
+
+    -o-transition: all 0.4s ease;
+
+    transition: all 0.4s ease;
+
+}
+
+
+
+#machinery-image .accordion li:last-child .link {
+    border-bottom: 0;
+}
+
+
+
+#machinery-image .accordion li i {
+
+    position: absolute;
+
+    top: 16px;
+
+    left: 12px;
+
+    font-size: 18px;
+
+    color: #000;
+
+    -webkit-transition: all 0.4s ease;
+
+    -o-transition: all 0.4s ease;
+
+    transition: all 0.4s ease;
+
+}
+
+
+
+#machinery-image .accordion li i.fa-chevron-down {
+
+    right: 12px;
+
+    left: auto;
+
+    font-size: 16px;
+
+}
+
+
+
+#machinery-image .accordion li.open .link {
+    color: #000;
+}
+
+
+
+#machinery-image .accordion li.open i {
+    color: #000;
+}
+
+
+
+#machinery-image .accordion li.open i.fa-chevron-down {
+
+    -webkit-transform: rotate(180deg);
+
+    -ms-transform: rotate(180deg);
+
+    -o-transform: rotate(180deg);
+
+    transform: rotate(180deg);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#machinery-image .top .mg {
+    width: 100%;
+    margin-top: 3%
+}
+
+#machinery-image .top .mgh {
+    width: 100%;
+    height: 593px;
+}
+
+#machinery-image .top .we-box {
+    background: #e5e5e5;
+    padding: 20px;
+    margin-right: 10px;
+    color: #333;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    cursor: pointer;
+    float: left;
+
+    margin-bottom: 10px;
+}
+
+#machinery-image .top .we-box:hover {
+    background: #f26726;
+    padding: 20px;
+    margin-right: 10px;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    float: left;
+
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*blog*/
+
+
+
+#blog {
+    padding-top: 100px;
+    padding-bottom: 75px
+}
+
+#blog .container-fluid {
+    width: 80%
+}
+
+#blog h1 {
+    font-size: 4rem;
+    margin-bottom: 30px;
+    color: rgb(73, 75, 66);
+    border-left: 5px solid #f26726;
+    padding-left: 10px
+}
+
+#blog h2 {
+    font-size: 2.7rem;
+    margin-top: 40px;
+    color: rgb(73, 75, 66);
+    line-height: 22px;
+}
+
+#blog .top {
+    margin-top: 20px;
+}
+
+#blog .top button {
+    float: right;
+    background: #f26726;
+    padding: 10px 50px;
+    border: 0px;
+    color: rgb(73, 75, 66);
+}
+
+#blog .top button:hover {
+    background: rgb(73, 75, 66);
+    padding: 10px 50px;
+    border: 0px;
+    color: #fff;
+}
+
+
+
+
+
+#blog .ren {
+    background: #f26726;
+    padding: 10px;
+    padding-left: 20px;
+    color: #fff;
+    text-align: left;
+    font-size: 2rem;
+}
+
+
+
+#blog ul li a {
+    color: #727272;
+}
+
+#blog ul {
+    margin-top: 30px;
+    padding-left: 12px;
+
+    border-left: 3px solid #f26726;
+}
+
+#blog ul li {
+
+    display: block;
+
+    background: url(../images/bull.png) left top no-repeat;
+
+    background-position: 0px 6px;
+
+    padding-left: 20px;
+
+    line-height: 24px;
+    font-size: 1.7rem;
+    font-family: Circular Std Medium, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(73, 75, 66);
+
+    margin-top: 15px;
+}
+
+
+
+#blog figure {
+
+    margin: 0;
+
+    padding: 0;
+
+    background: transparent;
+
+    overflow: hidden;
+
+    cursor: pointer;
+
+}
+
+
+
+#blog figure img {
+    width: 100%;
+
+    -webkit-transform: scale(1);
+
+    transform: scale(1);
+
+    -webkit-transition: .3s ease-in-out;
+
+    transition: all .3s ease-in-out;
+
+    transition: filter .5s ease-in-out;
+
+    -webkit-filter: grayscale(0%);
+
+    filter: grayscale(0%);
+    transition: all .3s ease-in-out;
+}
+
+
+
+
+
+#blog figure:hover img {
+
+    -webkit-transform: scale(1.3);
+
+    transform: scale(1.3);
+
+    -webkit-filter: grayscale(100%);
+
+    filter: grayscale(100%);
+    transition: all .3s ease-in-out;
+}
+
+
+
+#blog .sub {
+    margin-bottom: 20px
+}
+
+#blog .sub a {
+    color: #f26726;
+    cursor: pointer;
+    margin-right: 10px
+}
+
+#blog .sub a i.vds {
+    transform: rotate(180deg);
+
+    margin: 0;
+
+    font-weight: bold;
+
+    font-size: 1rem;
+
+    vertical-align: middle;
+}
+
+#blog .sub a.ne {
+    color: #f26726;
+    cursor: pointer;
+    margin-left: 10px
+}
+
+#blog .sub a:hover {
+    color: rgb(73, 75, 66)
+}
+
+
+
+#blog p {
+    line-height: 24px;
+    font-size: 1.7rem;
+    font-family: Circular Std Medium, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(73, 75, 66);
+    margin-top: 22px;
+}
+
+
+
+#blog p span {
+    color: #f26726
+}
+
+
+
+
+
+
+
+
+
+#blog-banner {
+    height: 100px
+}
+
+
+
+
+
+
+
+
+
+/**
+
+ * Submenu
+
+ -----------------------------*/
+
+
+
+
+
+#machinery-image .submenu {
+
+    display: none;
+
+    background: #e5e5e5;
+    padding: 0px;
+
+    font-size: 14px;
+
+}
+
+
+
+#machinery-image .submenu li {
+    border-bottom: 1px solid #fff;
+}
+
+
+
+#machinery-image .submenu a {
+
+    display: block;
+
+    text-decoration: none;
+
+    color: #000;
+
+    padding: 12px;
+
+    padding-left: 42px;
+
+    -webkit-transition: all 0.25s ease;
+
+    -o-transition: all 0.25s ease;
+
+    transition: all 0.25s ease;
+
+}
+
+
+
+#machinery-image .submenu a:hover {
+
+    background: #f26726;
+
+    color: #FFF;
+
+}
+
+
+
+#machinery-image .submenu .active {
+    background: #f26726;
+
+    color: #000;
+}
+
+
+
+
+
+
+
+.skdslider img.pos {
+    position: absolute;
+    width: 10% !important;
+
+    z-index: 999;
+
+    left: 74%;
+
+    top: 60%;
+    height: auto !important
+}
+
+
+
+
+
+#machinery-image .top h2 {
+    color: rgb(73, 75, 66);
+    font-size: 2.7rem;
+}
+
+#machinery-image h1 {
+    font-size: 2.7rem;
+}
+
+#machinery-image .container-fluid {
+    width: 80%;
+}
+
+#machinery-image {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #dedede;
+}
+
+#machinery-image .top {
+    margin-top: 2%;
+}
+
+#machinery-image h3 {
+    font-size: 1.7rem;
+    color: rgb(73, 75, 66);
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+#machinery-image h5 {
+    font-size: 1.7rem;
+    color: #7c7b7b;
+    font-family: Circular Std Medium, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+#machinery-image span {
+    font-size: 2rem;
+    color: rgb(73, 75, 66);
+    font-family: Circular Std Medium, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+#machinery-image p {
+    line-height: 26px;
+    font-size: 1.6rem;
+    color: #494b42;
+    margin: 0 0 0rem;
+    margin-top: 5px;
+}
+
+#machinery-image h4 {
+    color: rgb(73, 75, 66);
+    margin-bottom: 25px;
+}
+
+
+
+#machinery-image .reach h4 {
+    color: #fff;
+    margin-bottom: -6px;
+    text-align: center;
+    background: rgb(244, 168, 29);
+    padding: 15px;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+
+
+#machinery-image .reach h6 {
+    color: #494b42;
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+
+
+#machinery-image .reach p {
+    line-height: 26px;
+    font-size: 1.6rem;
+    color: #494b42;
+    text-align: center;
+    letter-spacing: -0.0rem;
+    margin-top: 0px;
+}
+
+
+
+
+
+#machinery-image .reach p a {
+    line-height: 26px;
+    font-size: 1.4rem;
+    color: #767575;
+    text-align: center;
+    letter-spacing: -0.0rem;
+    margin-top: 0px;
+}
+
+
+
+#machinery-image .reach p a:hover {
+    color: #f26726;
+}
+
+
+
+#machinery-image .reach {
+    margin-bottom: 50px;
+}
+
+
+
+#download {
+    margin-top: 15%;
+}
+
+#download h2 {
+    color: #707174;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+#download h3 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    background: #f26726;
+    padding: 15px;
+    text-align: center;
+}
+
+#download .box {
+    padding: 10px 0px 10px 0px;
+    display: inherit;
+}
+
+#download .box:hover {
+    cursor: pointer;
+    color: #f26726;
+}
+
+
+
+#download .box i {
+    color: #e31e24;
+}
+
+#download a {
+    color: rgb(73, 75, 66);
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+#download i {
+    font-weight: 600;
+}
+
+#download button,
+input,
+select,
+textarea {
+    padding: 18px;
+    border: 1px solid #dcdcdc;
+    width: 100%;
+    font-family: Circular Std Medium, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #c1c1c1;
+}
+
+#download button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    border: 1px solid #dcdcdc;
+    background: none;
+    font-family: Circular Std Medium, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(73, 75, 66);
+}
+
+#download button,
+html input[type=button],
+input[type=reset],
+input[type=submit]:hover {
+    background: #f26726;
+    color: #fff;
+}
+
+#download h4 {
+    margin-top: 100px;
+    font-size: 1.4rem;
+    color: rgb(73, 75, 66);
+    text-align: center;
+}
+
+#download .padd {
+    padding: 5px;
+}
+
+
+
+
+
+
+
+#about-content .container-fluid {
+    width: 80%;
+}
+
+#about-content {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+#about-content h3 {
+    color: #f26726;
+    margin-top: 0px;
+    font-size: 3rem;
+    margin-bottom: 1%;
+}
+
+#about-content p {
+    line-height: 26px;
+    font-size: 1.6rem;
+    color: #494b42;
+    margin: 0 0 2rem;
+    margin-top: 0px;
+    letter-spacing: -.0rem;
+}
+
+#about-content span {
+    color: #f26726;
+    font-weight: 600;
+    font-size: 2rem
+}
+
+
+
+
+
+
+
+
+
+#about-content .yes {
+
+    width: 250px;
+
+    float: left;
+}
+
+#about-content .yes img {
+    width: 30%
+}
+
+#about-content .yes p {
+    font-weight: 600
+}
+
+#about-content .kist {
+
+    width: auto;
+
+    float: left;
+    margin-left: 20%
+}
+
+
+
+#about-content .kist img {
+    width: 60%
+}
+
+#about-content .kist p {
+    font-weight: 600
+}
+
+
+
+
+
+
+
+#case {
+    margin-top: 0%;
+}
+
+#case h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    background: #f26726;
+    padding: 15px;
+
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px
+}
+
+
+
+#case h2:hover {
+    color: #fff;
+    background: #706f6f;
+}
+
+
+
+
+
+
+
+
+
+
+
+.privacy-logo {
+    display: block
+}
+
+.des {
+    display: none
+}
+
+#blog h1 {
+
+    font-size: 4rem;
+
+    margin-bottom: 0px;
+
+    color: rgb(73, 75, 66);
+
+    border-left: 5px solid #f26726;
+
+    padding-left: 10px;
+
+}
+
+#blog h2 {
+
+    font-size: 3rem;
+
+    margin-bottom: 0px;
+
+    color: rgb(73, 75, 66);
+
+    border-left: 5px solid #f26726;
+
+    padding-left: 10px;
+
+}
+
+#blog h4 {
+
+    font-size: 4rem;
+
+    margin-bottom: 0px;
+
+    color: rgb(73, 75, 66);
+
+    border-left: 5px solid #f26726;
+
+    padding-left: 10px;
+
+}
+
+#blog .wds {
+
+    margin: 0px;
+
+    margin-bottom: 50px;
+
+    border: 1px solid #e8e2e2;
+
+}
+
+#blog .wds .col-md-6 {
+
+    padding-left: 0px;
+
+}
+
+#blog .dfs {
+
+    padding-top: 50px;
+
+    padding-left: 15px !important;
+
+}
+
+#blog a {
+
+    color: #f26726;
+
+}
+
+#blog a:hover {
+    text-decoration: underline
+}
+
+
+
+
+
+@media only screen and (min-width : 1920px) and (max-width : 2560px) {}
+
+@media only screen and (min-width : 1600px) and (max-width : 1919px) {
+
+
+
+    #machinery-banner {}
+
+
+
+    #download button,
+    input,
+    select,
+    textarea {
+        padding: 10px;
+    }
+
+    #download h4 {
+        margin-top: 80px;
+    }
+
+
+
+    #machinery-image {
+        padding-top: 50px;
+    }
+
+
+
+
+
+    #download button,
+    html input[type=button],
+    input[type=reset],
+    input[type=submit] {
+        padding: 10px
+    }
+
+    #machinery-image .top .mgh {
+        height: 498px;
+    }
+
+
+
+
+
+    #about-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+
+
+
+
+}
+
+@media only screen and (min-width : 1440px) and (max-width : 1599px) {
+
+    #machinery-banner {}
+
+
+
+    #download button,
+    input,
+    select,
+    textarea {
+        padding: 10px;
+    }
+
+    #machinery-image .top h2 {}
+
+
+
+    #machinery-image {
+        padding-top: 40px;
+    }
+
+
+
+
+
+    #download button,
+    html input[type=button],
+    input[type=reset],
+    input[type=submit] {
+        padding: 10px
+    }
+
+    #machinery-image .top .mgh {
+        height: 443px;
+    }
+
+    #download h4 {
+        margin-top: 80px;
+    }
+
+
+
+
+
+
+
+    /*Banner*/
+
+    .sli__text {
+        height: 180px;
+    }
+
+    #rhino-banner .slide__text {
+        height: 135px;
+    }
+
+    #rhino-banner .slide__text h2::after {
+        top: 150px;
+    }
+
+
+
+
+
+
+
+    #about-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (min-width : 1366px) and (max-width : 1439px) {
+
+
+
+    #machinery-banner {}
+
+
+
+    #machinery-image .top h2 {}
+
+    #machinery-banner h2 {
+        margin-top: 60%;
+    }
+
+    #machinery-content {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+
+
+    #machinery-content p {
+        width: 92%;
+    }
+
+    #machinery-image {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    #border {
+        margin-top: -31px;
+    }
+
+    .carousel-caption {
+        padding: 17px;
+        width: 47%;
+        bottom: 150px;
+    }
+
+
+
+    #machinery-image p {
+        line-height: 26px;
+    }
+
+    #download h4 {
+        margin-bottom: -15px;
+        margin-top: 20px;
+    }
+
+    #download {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    #download h2 {
+        margin-bottom: 15px;
+    }
+
+    #machinery-image .container-fluid {
+        width: 85%;
+    }
+
+    #machinery-content .container-fluid {
+        width: 85%;
+    }
+
+    #download .container-fluid {
+        width: 85%;
+    }
+
+    #download .box {
+        padding: 15px 0px 18px 0px;
+        margin-right: 2px;
+    }
+
+
+
+    #case h2 {
+        margin-top: -33px;
+    }
+
+    #download button,
+    input,
+    select,
+    textarea {
+        padding: 10px;
+    }
+
+    #download .padd {
+        padding: 1px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+    #machinery-image .top .mgh {
+        height: 447px;
+    }
+
+    #download {
+        margin-top: 8%;
+    }
+
+
+
+
+
+
+
+    /*Banner*/
+
+    .sli__text {
+        height: 180px;
+    }
+
+    #rhino-banner .slide__text {
+        height: 135px;
+    }
+
+    #rhino-banner .slide__text h2::after {
+        top: 150px;
+    }
+
+
+
+
+
+    #about-content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+
+
+
+}
+
+
+
+@media only screen and (min-width : 1200px) and (max-width : 1365px) {
+
+
+
+    #machinery-content {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+
+
+    #machinery-content p {
+        width: 100%;
+        margin-top: 19px;
+    }
+
+    #machinery-banner h2 {
+        width: 49%;
+        margin-top: 70%;
+    }
+
+    #border {
+        margin-top: -28px;
+    }
+
+    .carousel-caption {
+        width: 49%;
+        padding: 15px;
+        bottom: 130px;
+    }
+
+    #machinery-content .container-fluid {
+        width: 85%;
+    }
+
+    #machinery-image .container-fluid {
+        width: 90%;
+    }
+
+    #download h3 {
+        margin-top: -55px;
+    }
+
+    #machinery-image p {
+        line-height: 26px;
+    }
+
+    #machinery-image h4 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #machinery-image {
+        padding-bottom: 40px;
+        padding-top: 50px;
+    }
+
+    #download {
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    #download .container-fluid {
+        width: 85%;
+    }
+
+
+
+    #download .box {
+        padding: 10px 0px 10px 0px;
+        margin-right: 1px;
+    }
+
+
+
+    #download h4 {
+        margin-top: 73px;
+    }
+
+
+
+    #case h2 {
+        margin-top: -45px;
+    }
+
+
+
+    #download a {
+        font-size: 1.2rem;
+    }
+
+
+
+
+
+    #download button,
+    input,
+    select,
+    textarea {
+        padding: 10px
+    }
+
+    #download .padd {
+        padding: 1px;
+    }
+
+
+
+    #machinery-image .top .mgh {
+        height: 390px;
+    }
+
+    #machinery-banner {}
+
+
+
+
+
+
+
+
+
+    /*Banner*/
+
+    .sli__text {
+        height: 180px;
+    }
+
+    #rhino-banner .slide__text {
+        height: 135px;
+    }
+
+    #rhino-banner .slide__text h2::after {
+        top: 150px;
+    }
+
+
+
+
+
+
+
+    #about-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+
+
+    #about-content .kist img {
+        width: 60%;
+    }
+
+    #about-content .yes img {
+        width: 35%;
+    }
+
+
+
+    #about-content .container-fluid {
+        width: 85%;
+    }
+
+    #blog .container-fluid {
+
+        width: 90%;
+
+    }
+
+
+
+
+
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1199px) {
+
+
+
+    #machinery-banner h2 {
+        width: 49%;
+        margin-top: 80%;
+    }
+
+    #machinery-content {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+
+
+    #machinery-content p {
+        width: 100%;
+        margin-top: 18px;
+    }
+
+    #border {
+        margin-top: -35px;
+    }
+
+    .carousel-caption {
+        width: 46%;
+        padding: 15px;
+        bottom: 100px;
+    }
+
+
+
+    #machinery-content .container-fluid {
+        width: 90%;
+    }
+
+    #machinery-image .container-fluid {
+        width: 90%;
+    }
+
+    #download h3 {
+        font-size: 1.3rem;
+        margin-top: -45px;
+    }
+
+    #machinery-image p {
+        line-height: 24px;
+    }
+
+    #machinery-image h4 {
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+
+    #machinery-image {
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+
+    #download {
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    #download .container-fluid {
+        width: 90%;
+    }
+
+
+
+    #download .box {
+        padding: 10px 0px 10px 0px;
+        margin-right: 2px;
+    }
+
+
+
+
+
+    #download button,
+    input,
+    select,
+    textarea {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    #download h4 {
+        margin-top: 70px;
+    }
+
+    #machinery-image .reach h4 {
+        padding: 12px;
+        font-size: 1.4rem;
+
+    }
+
+    #case h2 {
+        margin-top: -42px;
+    }
+
+    #download a {
+        font-size: 1.2rem;
+    }
+
+
+
+
+
+
+
+    #download button,
+    input,
+    select,
+    textarea {
+        padding: 9px
+    }
+
+    #download .padd {
+        padding: 1px;
+    }
+
+
+
+
+
+    #machinery-image .top .mgh {
+        height: 350px;
+    }
+
+
+
+    #machinery-banner {}
+
+    #blog .container-fluid {
+
+        width: 90%;
+
+    }
+
+
+
+    /*Banner*/
+
+    .sli__text {
+        height: 180px;
+    }
+
+    #rhino-banner .slide__text {
+        height: 135px;
+    }
+
+    #rhino-banner .slide__text h2::after {
+        top: 150px;
+    }
+
+
+
+    #about-content .container-fluid {
+        width: 90%;
+    }
+
+    #about-content {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    #about-content .kist img {
+        width: 60%;
+    }
+
+    #about-content .yes img {
+        width: 35%;
+    }
+
+
+
+}
+
+@media only screen and (min-width : 768px) and (max-width :1023px) {
+
+
+
+    #machinery-banner {}
+
+    #machinery-banner .container-fluid {
+        width: 90%;
+    }
+
+    #machinery-banner h2 {
+        width: 65%;
+        margin-top: 100%;
+    }
+
+    #machinery-content {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    #machinery-content h3 {}
+
+    #machinery-content p {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .carousel-caption {
+        width: 61%;
+        padding: 15px;
+        bottom: 70px;
+    }
+
+    #machinery-banner h3 {}
+
+
+
+    #machinery-image p {
+        line-height: 24px;
+    }
+
+    #machinery-image h4 {
+        margin-top: 17px;
+        margin-bottom: 17px;
+    }
+
+    #machinery-image {
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+
+    #download {
+        padding-top: 15px;
+        padding-bottom: 0px;
+        margin-top: 0%;
+    }
+
+
+
+    #download .box {
+        padding: 18px 0px 18px 0px;
+        display: -webkit-inline-box;
+        margin-right: 5px;
+        margin-bottom: 30px;
+    }
+
+    #download h4 {}
+
+    #machinery-image .top h2 {}
+
+    #case h2 {
+        margin-top: -70px;
+    }
+
+
+
+    .img-responsive {
+        width: 100%
+    }
+
+    #machinery-image .top .col-sm-6 {
+        height: 500px
+    }
+
+
+
+
+
+
+
+    #about-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #about-content h3 {
+        font-size: 2.5rem
+    }
+
+    #about-content .kist img {
+        width: 80%;
+    }
+
+    #about-content .yes img {
+        width: 30%;
+    }
+
+    #about-content .kist {
+        width: 50%;
+        margin-left: 0%;
+    }
+
+    #about-content .yes {
+        width: 50%;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (min-width : 150px) and (max-width : 767px) {
+
+
+
+    .skdslider img.pos {
+
+        position: absolute;
+
+        width: 20% !important;
+
+        z-index: 999;
+
+        left: 67%;
+
+        top: 34%;
+
+        height: auto !important;
+
+    }
+
+
+
+
+
+
+
+    #machinery-banner h2 {
+        width: 100%;
+        margin-top: 75%;
+    }
+
+    #machinery-content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #machinery-content .container-fluid {
+        width: 90%;
+    }
+
+
+
+    #machinery-content p {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #machinery-banner {}
+
+    #border {
+        margin-top: -30px;
+    }
+
+    #machinery-image .container-fluid {
+        width: 90%;
+    }
+
+    #machinery-image h3 {
+        font-size: 1.6rem;
+    }
+
+    #machinery-image p {
+        line-height: 24px;
+    }
+
+    #machinery-image h4 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #machinery-image {
+        padding-bottom: 40px;
+        padding-top: 20px
+    }
+
+    #download {
+        padding-top: 0px;
+        padding-bottom: 10px;
+        margin-bottom: 8%;
+    }
+
+    #download .container-fluid {
+        width: 90%;
+    }
+
+    #download h2 {
+        ;
+        margin-bottom: 15px;
+    }
+
+    #download .box {
+        padding: 10px 0px 10px 0px;
+    }
+
+
+
+
+
+    #download h4 {
+        margin-top: 20px;
+    }
+
+    .carousel-caption {
+        padding: 10px;
+        width: 75%;
+        left: 8%;
+        bottom: 45px;
+    }
+
+
+
+    #header {
+
+        padding-bottom: 0px;
+
+    }
+
+
+
+
+
+    #machinery-image .top img {
+        margin-top: 10%;
+    }
+
+
+
+
+
+
+
+    #about-content .kist img {
+        width: 80%;
+    }
+
+    #about-content .yes img {
+        width: 30%;
+    }
+
+    #about-content .kist {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    #about-content .yes {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    #about-content {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    #about-content .container-fluid {
+        width: 90%;
+    }
+
+    #about-content h3 {
+        font-size: 2.5rem;
+    }
+
+    #about-content p {
+        margin-top: 15px;
+    }
+
+
+
+    #blog {
+
+        padding-top: 40px;
+
+        padding-bottom: 40px;
+
+    }
+
+
+
+
+
+}
+
+@media only screen and (max-width : 375px) {
+
+
+
+    #border {
+        margin-top: -25px;
+    }
+
+
+
+    .skdslider img.pos {
+        left: 59%;
+        width: 25% !important;
+        top: 52%;
+    }
+
+
+
+}
+
+@media only screen and (max-width : 320px) {
+
+    .skdslider img.pos {
+        left: 59%;
+        width: 25% !important;
+        top: 30%;
+    }
+
+
+
+    #machinery-banner h2 {
+        margin-top: 120%;
+    }
+
+
+
+    #machinery-image h1 {
+
+        font-size: 2.4rem;
+
+    }
+
+
+
+
+
+
+
+}

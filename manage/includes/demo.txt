@@ -1,0 +1,149 @@
+public function insertcat($data)
+    {
+		//print_r($data);
+        $caption=$data['caption'];
+        $description=$data['description'];
+        $cat=$data['cat'];
+			//$cid=$data['cid'];
+		
+		
+        $this->db->insert("cats", array('caption' => $caption,
+            'description' =>$description, 'cat' => $cat//,
+			//'cid'=> $cid
+			));
+       
+    }
+	
+		
+	
+	
+	public function dropcat()
+	{
+		
+    	return $this->db->select("select * from cats order by id desc");
+	}
+    public function getcat()
+    {
+       return $this->db->select("select * from cats order by id desc");
+    }
+    public function getcatByid($id)
+    {
+        return $this->db->select("select * from cats where id=$id");
+    }
+    public function getupdatecat($data)
+    {
+       
+           $img1=$img?$img:'';
+           $id=$data['hidden'];
+           $Valres['caption'] = $data['caption'];
+           $Valres['description'] = $data['description'];
+           $Valres['cat'] = $data['cat'];
+           //$Valres['cid'] = $data['cid'];
+           
+       
+    
+            return  $this->db->update('cats', $Valres, 'id=' . $id);
+         
+       
+    }
+    public function getcatimg($id)
+    {
+        return $this->db->select("select * from cats where id=$id");
+    }
+    public function getdeleteimgcat($id)
+    {
+        $sql= $this->db->select("delete from cats where id=$id");
+        
+        return $sql;
+    }
+   
+   
+   public function service_cat()
+   {
+	   return $this->db->select("select cid,cat from services_cat");
+	   
+   }
+   //public function catjoin()
+   //{
+	 //  return $this->db->select("select services_cat.cid as cd, cats.caption, services_cat.cat,cats.description from cats join services_cat ON cats.cid=services_cat.cid");
+	   
+//print_r(catjoin);exit("kjkj");
+   //}
+   
+}
+
+
+
+
+
+
+
+
+				<label>Category</label>		 <select name="cat"><option value="" >Select Category</option>
+        <?php foreach ($this->service_cat as $cate) { 
+		
+            echo "<option value='" .$cate["cid"] . "'>" .$cate["cat"]."</option>";
+        }?>
+    </select>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public function Addcat() { 
+
+	
+		//echo "developer";
+        if (isset($_POST['submitp'])) {
+        //print_r($_POST);exit("hhi");
+        $this->model->insertcat($_POST); 
+        }
+        $this->view->js[] = URL . 'views/products/js/tt.js';
+        //$this->view->js[] = URL . 'views/service/js/addproduct.js';
+        $this->view->js[] = URL . 'views/service/js/reCopy.js';
+        $this->view->js[] = URL . 'views/service/js/Addga.js';
+        $this->view->js[] = URL . 'views/products/js/enable_1.js';
+        //$this->view->js[] = URL . 'views/service/js/addproduct.js';
+        //$this->view->getcat = $this->model->getcat();
+		$this->view->service_cat = $this->model->service_cat();
+		//print_r($this->view->service_cat);exit("kk");
+		//$this->view->catjoin = $this->model->catjoin();
+		//print_r($this->view->catjoin);exit("kk");
+        $this->view->renderAdmin('cat/addcat');
+    }
+ 
+    
+
+ 
+        public function editcat($id)
+        {    
+		    $this->view->js[] = URL . 'public/ckeditor/ckeditor.js';
+            $this->view->js[] = URL . 'views/service/js/addproduct.js';
+            $this->view->getcat=$this->model->getcatByid($id);			
+            $this->view->renderAdmin('cat/editcat');
+        }
+        public function updatecat()
+        {
+            
+            
+           $this->model->getupdatecat($_POST);
+           header('Location:http://localhost:82/faiz/manage/Service/Addcat');
+            
+        }
+        public function deletecat($id)
+        {
+        
+		$this->view->try = $this->model->getcatimg($id);           
+        $img = $this->view->try[0]['image'];
+        $path = $target_path = $_SERVER['DOCUMENT_ROOT'] . '/faiz/manage/public/uploads/news/' . $img;
+        if (is_file($path)) {
+            unlink($path);
+        }
+        $this->model->getdeleteimgcat($id);
+        header('Location: http://localhost:82/faiz/manage/Service/Addcat');
+        }
+	

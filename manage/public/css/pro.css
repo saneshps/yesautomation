@@ -1,0 +1,9 @@
+/* about */
+.pro-cap {text-align:center; margin:80px auto;  width:70%;}
+.pro-cap h3 {font-size:25px; font-weight:500; color:#0d8c10; margin-top:0px;  text-align:center; margin-bottom:15px; font-style:italic;} 
+.pro-cap p {font-size:18px; color:#9b9b9b; margin-top:0px;  }
+
+.pro-box {padding-top:20px; padding-bottom:166px;  width:85%; margin:0px auto;   } 
+.pro-box .col-md-6 {text-align:center; margin-bottom:30px; } .pro-box .col-md-6 img {width:100%; border:1px solid #bcbcbc;}
+.pro-box h3 {font-size:18px; font-weight:500; color:#008402; background:#f8f8f8; border:1px solid #bcbcbc; margin-top:-1px; padding:17px 0px;}
+.pro-box a h3 {color:#0d8c10; transition: all 0.4s;} .pro-box img:hover~h3, .pro-box a h3:hover  {color:#fff; background:#008402  }

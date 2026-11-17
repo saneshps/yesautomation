@@ -1,0 +1,209 @@
+/* Native disclosure controls keep the FAQ usable without JavaScript. */
+#machinery-image .overhang-faq {
+  margin: 18px 0 12px;
+  padding: clamp(20px, 3vw, 36px);
+  border: 1px solid #e9e6e3;
+  border-radius: 16px;
+  background: #faf9f7;
+  color: #263540;
+}
+
+#machinery-image .overhang-faq-heading {
+  margin-bottom: 26px;
+}
+
+#machinery-image .overhang-faq-heading h2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 10px;
+  color: #263540;
+  font-size: clamp(26px, 2.5vw, 34px);
+  line-height: 1.2;
+}
+
+#machinery-image .overhang-faq-heading h2::before {
+  content: "";
+  width: 4px;
+  height: 28px;
+  border-radius: 2px;
+  background: #f26726;
+}
+
+#machinery-image .overhang-faq-heading p {
+  margin: 0;
+  color: #59636b;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.overhang-faq-list {
+  display: grid;
+  gap: 12px;
+}
+
+.overhang-faq-item {
+  min-width: 0;
+  border: 1px solid #e3e6e8;
+  border-radius: 10px;
+  background: #fff;
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.overhang-faq-item[open] {
+  border-color: #f0b28f;
+  box-shadow: 0 4px 18px rgba(38, 53, 64, 0.05);
+}
+
+.overhang-faq-item summary {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr) 32px;
+  align-items: center;
+  gap: 14px;
+  min-height: 80px;
+  padding: 20px 22px;
+  border-radius: 9px;
+  list-style: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.overhang-faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.overhang-faq-item summary::marker {
+  content: "";
+}
+
+.overhang-faq-item summary:focus-visible {
+  outline: 3px solid #a63c0b;
+  outline-offset: 3px;
+}
+
+#machinery-image .overhang-faq-item summary span {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+#machinery-image .overhang-faq-item .overhang-faq-number {
+  color: #9b471e;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+#machinery-image .overhang-faq-item .overhang-faq-question {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+#machinery-image .overhang-faq-item .overhang-faq-icon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #fff1e9;
+  color: #a63c0b;
+  transition: background-color 180ms ease, color 180ms ease;
+}
+
+.overhang-faq-icon::before,
+.overhang-faq-icon::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  width: 12px;
+  height: 2px;
+  border-radius: 1px;
+  background: currentColor;
+}
+
+.overhang-faq-icon::after {
+  transform: rotate(90deg);
+  transition: transform 180ms ease;
+}
+
+.overhang-faq-item[open] .overhang-faq-icon::after {
+  transform: rotate(0deg);
+}
+
+#machinery-image .overhang-faq-item[open] .overhang-faq-icon {
+  background: #a63c0b;
+  color: #fff;
+}
+
+.overhang-faq-answer {
+  padding: 0 68px 24px 64px;
+}
+
+#machinery-image .overhang-faq-answer p {
+  margin: 0;
+  color: #59636b;
+  font-size: 15px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
+.overhang-faq-answer strong {
+  color: #263540;
+}
+
+@media (hover: hover) {
+  .overhang-faq-item:hover {
+    border-color: #f0b28f;
+  }
+}
+
+@media (max-width: 991px) {
+  .overhang-faq-item summary {
+    grid-template-columns: minmax(0, 1fr) 32px;
+    gap: 12px;
+    padding: 18px;
+  }
+
+  #machinery-image .overhang-faq-item .overhang-faq-number {
+    display: none;
+  }
+
+  #machinery-image .overhang-faq-item .overhang-faq-question {
+    font-size: 16px;
+  }
+
+  .overhang-faq-answer {
+    padding: 0 18px 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  #machinery-image .overhang-faq {
+    padding: 20px 12px;
+    border-radius: 12px;
+  }
+
+  #machinery-image .overhang-faq-heading {
+    padding: 0 4px;
+    margin-bottom: 20px;
+  }
+
+  .overhang-faq-item summary {
+    padding: 16px 14px;
+  }
+
+  .overhang-faq-answer {
+    padding: 0 14px 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .overhang-faq-item,
+  #machinery-image .overhang-faq-item .overhang-faq-icon,
+  .overhang-faq-icon::after {
+    transition: none;
+  }
+}
